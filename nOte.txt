@@ -52,3 +52,4 @@ after the git pull operation, you are already updated and is the head now.
 also, after you git merge successfully, you still not need to git add . and git commit.
 
 git clone command can be used directly; not in a git repository
+when you git clone a repo, you actually set it as your origin remote.
