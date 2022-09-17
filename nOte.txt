@@ -51,3 +51,4 @@ after you pull from remote repository, you don't need to git commit and push it 
 after the git pull operation, you are already updated and is the head now.
 also, after you git merge successfully, you still not need to git add . and git commit.
 
+git clone command can be used directly; not in a git repository
