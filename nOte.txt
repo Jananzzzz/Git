@@ -53,3 +53,21 @@ also, after you git merge successfully, you still not need to git add . and git 
 
 git clone command can be used directly; not in a git repository
 when you git clone a repo, you actually set it as your origin remote.
+
+the core difference between git clone and git fork is: the operation permission
+git clone is used when you are a owner or member of the repository, you can clone it and modify it then push to it (providing passwords or ssh key, etc)
+
+git fork is to fork a same repository in your own github account, then you can modify or git clone the repo as you like
+if you want to push the modification you made to the origin repository which you are not a member of, you can send a pull request at your fork-repository page
+then the origin repository maintainer will recieve a notification that someone(you) send a pull request.
+if the maintainer accept the request, he then can merge your modified-version to his origin version.
+
+you can git pull and git clone from any repo, but you need authoration to git push to it.
+the subtle difference between git pull and git clone is:
+if you not have a local repo, you can directly clone one
+if you already have a repo, which is a diferent version of the repo you want to pull, you can git pull it.
+if you have an empty repo, then git clone and git pull almost have no diference. (except that git clone is using without a git repository)
+
+there are two ways you can git push to a repo which you are not the owner:
+a. although you are not an owner, you are a maintainer
+b. fork it and send pull request to the maintainer
