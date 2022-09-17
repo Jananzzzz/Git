@@ -17,6 +17,8 @@ here are the following steps you need to do in local: (after creating a reposito
 
 
 
-PS C:\Users\16591\Desktop\Github\Git> git add README.md
-fatal: pathspec 'README.md' did not match any files
-PS C:\Users\16591\Desktop\Github\Git> echo >> README.md
+Create a new branch:             git branch New_Branch_Name
+Show all the branches:            git branch
+Switch to a branch:              git checkout Branch_Name
+After you create and Switch to a new branch, you should set the origin of the new branch in remote, then you can push changes to this new branch
+the set origin command is:         git push --set-upstream origin FirstTestBranch          
