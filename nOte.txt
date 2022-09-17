@@ -36,7 +36,18 @@ git status:          show the current status: add/modified/delete
 the ! is files conflicted
 numbers behind a ! means that the status is not added/updated          
 
-Using git pull and git push, and try to pull request.
+Using git pull and git push, and try to pull request as a repository owner or maintainer:
+1. create a local repository
+2. git pull from the remote repository
+3. git remote add origin the remote repository
+4. you can change the files as you like
+5. git push it to the remote repository
+6. the remote repository maintainer will recieve a pull request 
+7. you as the maintainer can approve it and merge the third-party modified version to the remote origin version
+8. after the merge, you can delete the third-party branch as a maintainer
+9. the git pull, modify, git push, pull request, merge procedure finished.
 
 after you pull from remote repository, you don't need to git commit and push it to keep the head of the branch. 
 after the git pull operation, you are already updated and is the head now.
+also, after you git merge successfully, you still not need to git add . and git commit.
+
