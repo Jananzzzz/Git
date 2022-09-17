@@ -30,3 +30,8 @@ always work on the side branch instead of main branch
 always commit after changes
 
 abort change to current code:                  git stash                //roll back to last modified or commit or merge
+
+git status:          show the current status: add/modified/delete  
+[master +1 +1 -1]  means there is an add file, an modified file and a deleted file to be committed 
+the ! is files conflicted
+numbers behind a ! means that the status is not added/updated          
